@@ -1,0 +1,12 @@
+.container {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #020f2a;
+    margin: 10px;
+    box-shadow: 10px 5px 5px #020f2a;
+}
+
+.text {
+    font-weight: bold;
+    margin: 2px;
+}

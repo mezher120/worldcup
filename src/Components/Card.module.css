@@ -1,0 +1,59 @@
+.container {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #020f2a;
+    margin: 10px;
+    box-shadow: 10px 5px 5px #020f2a;
+}
+
+.group {
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #020f2a;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
+.countries {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.countries:hover {
+    cursor: pointer;
+    border: 1px solid #06a4ed;
+
+}
+
+.flag {
+    border-radius: 5px;
+    width: 30px;
+}
+
+.btncontainer {
+    text-align: center;
+}
+.delete {
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: red;
+    cursor: pointer;
+    background: none;
+    margin: 2px;
+}
+
+.delete:hover {
+    background-color: red;
+    content: 'X';
+    color: black;
+}
+
+.delete:focus {
+    box-shadow: 0 0 0 4px lighten(red, 40%);
+}

@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.fasesContainer {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #020f2a;
+    margin: 5px;
+    box-shadow: 10px 5px 5px #020f2a;
+}
+
+.fasespares {
+    margin: 20px;
+}
+
+.text {
+    text-align: center;
+}

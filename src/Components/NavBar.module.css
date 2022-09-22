@@ -1,0 +1,14 @@
+.background {
+    background-color: #020f2a;
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.text {
+    color:white;
+}
+
+.text:hover {
+    color:  #06a4ed;
+    cursor: pointer;
+}
